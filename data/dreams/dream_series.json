@@ -1,0 +1,12 @@
+{
+  "dreams": [
+    { "id": "d01", "text": "a dragonfly hovering over a still lake at dusk" },
+    { "id": "d02", "text": "an old wooden house with many small nested rooms" },
+    { "id": "d03", "text": "a tall spiral of light rising slowly from the ground" },
+    { "id": "d04", "text": "a turtle resting on a smooth round river stone" },
+    { "id": "d05", "text": "a tangled nest of branches cradling a single egg" },
+    { "id": "d06", "text": "a sharp mountain peak piercing through layered clouds" },
+    { "id": "d07", "text": "a flock of birds merging into one flowing shape" },
+    { "id": "d08", "text": "a smooth round boulder split by a thin crack of light" }
+  ]
+}

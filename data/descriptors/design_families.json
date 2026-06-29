@@ -1,0 +1,33 @@
+{
+  "_note": "Culturally-neutral DESIGN form-language families. Each family is a set of descriptor terms for how volumes/shapes are organized in design. Used to position each generated dream shape WITHIN each family (a soft distribution over the family's members), giving a multi-axis design profile per form. Safe to edit/extend; not Lakota symbol content.",
+  "families": [
+    {
+      "name": "Volume",
+      "members": ["solid monolithic mass", "hollow shell", "open lattice frame", "thin membrane surface", "stacked layered slabs"]
+    },
+    {
+      "name": "Form language",
+      "members": ["geometric and rectilinear", "organic and biomorphic", "streamlined and aerodynamic", "crystalline and faceted", "sculptural freeform"]
+    },
+    {
+      "name": "Symmetry",
+      "members": ["bilaterally symmetric", "radially symmetric", "asymmetric and irregular", "modular and repeating"]
+    },
+    {
+      "name": "Edge & contour",
+      "members": ["sharp angular edges", "soft rounded contours", "undulating wavy surface", "jagged serrated profile"]
+    },
+    {
+      "name": "Proportion",
+      "members": ["tall and vertical", "low and horizontal", "compact and cubic", "elongated and linear"]
+    },
+    {
+      "name": "Surface",
+      "members": ["smooth and continuous", "ribbed and grooved", "perforated and porous", "rough and textured"]
+    },
+    {
+      "name": "Posture",
+      "members": ["grounded and stable", "floating and suspended", "leaning and cantilevered", "dynamic and in motion"]
+    }
+  ]
+}

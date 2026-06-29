@@ -1,0 +1,605 @@
+{
+  "_note": "SYNTHETIC placeholder dreams for the scale demo; replace with real Cosmologyscape/Oneiris dreams.",
+  "dreams": [
+    {
+      "id": "D000",
+      "text": "A sheet of cracked ice, rising in an empty room",
+      "subject": "a sheet of cracked ice",
+      "tag": "ice"
+    },
+    {
+      "id": "D001",
+      "text": "A moth at rest, hovering over still water",
+      "subject": "a moth at rest",
+      "tag": "rest"
+    },
+    {
+      "id": "D002",
+      "text": "A spiral staircase, slowly turning under a grey sky",
+      "subject": "a spiral staircase",
+      "tag": "staircase"
+    },
+    {
+      "id": "D003",
+      "text": "A hovering dragonfly, hovering in a forest clearing",
+      "subject": "a hovering dragonfly",
+      "tag": "dragonfly"
+    },
+    {
+      "id": "D004",
+      "text": "A tangle of roots, hovering over still water",
+      "subject": "a tangle of roots",
+      "tag": "roots"
+    },
+    {
+      "id": "D005",
+      "text": "A spined cactus, unfolding over still water",
+      "subject": "a spined cactus",
+      "tag": "cactus"
+    },
+    {
+      "id": "D006",
+      "text": "A branch of white coral, slowly turning in a forest clearing",
+      "subject": "a branch of white coral",
+      "tag": "coral"
+    },
+    {
+      "id": "D007",
+      "text": "A spined cactus, hovering among tall grass",
+      "subject": "a spined cactus",
+      "tag": "cactus"
+    },
+    {
+      "id": "D008",
+      "text": "A stack of thin slabs, slowly turning in thick fog",
+      "subject": "a stack of thin slabs",
+      "tag": "slabs"
+    },
+    {
+      "id": "D009",
+      "text": "A coiled snake, glowing softly against the night sky",
+      "subject": "a coiled snake",
+      "tag": "snake"
+    },
+    {
+      "id": "D010",
+      "text": "A full moon low on the horizon, breaking apart against the night sky",
+      "subject": "a full moon low on the horizon",
+      "tag": "horizon"
+    },
+    {
+      "id": "D011",
+      "text": "A shard of broken glass, hovering in thick fog",
+      "subject": "a shard of broken glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D012",
+      "text": "An egg on the sand, floating among tall grass",
+      "subject": "an egg on the sand",
+      "tag": "sand"
+    },
+    {
+      "id": "D013",
+      "text": "A tall spiral of light, drifting in an empty room",
+      "subject": "a tall spiral of light",
+      "tag": "light"
+    },
+    {
+      "id": "D014",
+      "text": "A standing stone, floating over still water",
+      "subject": "a standing stone",
+      "tag": "stone"
+    },
+    {
+      "id": "D015",
+      "text": "A stack of thin slabs, drifting in a forest clearing",
+      "subject": "a stack of thin slabs",
+      "tag": "slabs"
+    },
+    {
+      "id": "D016",
+      "text": "A curled fish, rising over still water",
+      "subject": "a curled fish",
+      "tag": "fish"
+    },
+    {
+      "id": "D017",
+      "text": "A hovering dragonfly, breaking apart in a wide desert",
+      "subject": "a hovering dragonfly",
+      "tag": "dragonfly"
+    },
+    {
+      "id": "D018",
+      "text": "A bare winter tree, resting over still water",
+      "subject": "a bare winter tree",
+      "tag": "tree"
+    },
+    {
+      "id": "D019",
+      "text": "Terraced hillsides, held still over still water",
+      "subject": "terraced hillsides",
+      "tag": "hillsides"
+    },
+    {
+      "id": "D020",
+      "text": "A stack of thin slabs, hovering against the night sky",
+      "subject": "a stack of thin slabs",
+      "tag": "slabs"
+    },
+    {
+      "id": "D021",
+      "text": "A tangle of roots, twisting in a wide desert",
+      "subject": "a tangle of roots",
+      "tag": "roots"
+    },
+    {
+      "id": "D022",
+      "text": "A spiral staircase, unfolding in a pool of light",
+      "subject": "a spiral staircase",
+      "tag": "staircase"
+    },
+    {
+      "id": "D023",
+      "text": "A sheet of cracked ice, twisting against the night sky",
+      "subject": "a sheet of cracked ice",
+      "tag": "ice"
+    },
+    {
+      "id": "D024",
+      "text": "A shallow stone bowl, resting on dark sand",
+      "subject": "a shallow stone bowl",
+      "tag": "bowl"
+    },
+    {
+      "id": "D025",
+      "text": "A branch of white coral, tumbling in a quiet field",
+      "subject": "a branch of white coral",
+      "tag": "coral"
+    },
+    {
+      "id": "D026",
+      "text": "A spider in its web, tumbling in thick fog",
+      "subject": "a spider in its web",
+      "tag": "web"
+    },
+    {
+      "id": "D027",
+      "text": "A soap bubble, breaking apart on dark sand",
+      "subject": "a soap bubble",
+      "tag": "bubble"
+    },
+    {
+      "id": "D028",
+      "text": "A balanced stack of stones, twisting under a grey sky",
+      "subject": "a balanced stack of stones",
+      "tag": "stones"
+    },
+    {
+      "id": "D029",
+      "text": "A breaking wave, twisting on dark sand",
+      "subject": "a breaking wave",
+      "tag": "wave"
+    },
+    {
+      "id": "D030",
+      "text": "A resting turtle, slowly turning over still water",
+      "subject": "a resting turtle",
+      "tag": "turtle"
+    },
+    {
+      "id": "D031",
+      "text": "A cracked open geode, unfolding in a quiet field",
+      "subject": "a cracked open geode",
+      "tag": "geode"
+    },
+    {
+      "id": "D032",
+      "text": "A single flame, resting in a quiet field",
+      "subject": "a single flame",
+      "tag": "flame"
+    },
+    {
+      "id": "D033",
+      "text": "A carved wooden mask, unfolding at dusk",
+      "subject": "a carved wooden mask",
+      "tag": "mask"
+    },
+    {
+      "id": "D034",
+      "text": "A leaping deer, slowly turning in a pool of light",
+      "subject": "a leaping deer",
+      "tag": "deer"
+    },
+    {
+      "id": "D035",
+      "text": "Terraced hillsides, breaking apart in a pool of light",
+      "subject": "terraced hillsides",
+      "tag": "hillsides"
+    },
+    {
+      "id": "D036",
+      "text": "A sheet of cracked ice, resting at the edge of a cliff",
+      "subject": "a sheet of cracked ice",
+      "tag": "ice"
+    },
+    {
+      "id": "D037",
+      "text": "A single outstretched wing, breaking apart on a frozen lake",
+      "subject": "a single outstretched wing",
+      "tag": "wing"
+    },
+    {
+      "id": "D038",
+      "text": "A hovering dragonfly, tumbling on a frozen lake",
+      "subject": "a hovering dragonfly",
+      "tag": "dragonfly"
+    },
+    {
+      "id": "D039",
+      "text": "A single pearl, stretching upward over still water",
+      "subject": "a single pearl",
+      "tag": "pearl"
+    },
+    {
+      "id": "D040",
+      "text": "A forked river of light, twisting at the edge of a cliff",
+      "subject": "a forked river of light",
+      "tag": "light"
+    },
+    {
+      "id": "D041",
+      "text": "A leaping deer, slowly turning at dusk",
+      "subject": "a leaping deer",
+      "tag": "deer"
+    },
+    {
+      "id": "D042",
+      "text": "A breaking wave, held still on dark sand",
+      "subject": "a breaking wave",
+      "tag": "wave"
+    },
+    {
+      "id": "D043",
+      "text": "A moth at rest, breaking apart in a wide desert",
+      "subject": "a moth at rest",
+      "tag": "rest"
+    },
+    {
+      "id": "D044",
+      "text": "An empty seashell, drifting at the edge of a cliff",
+      "subject": "an empty seashell",
+      "tag": "seashell"
+    },
+    {
+      "id": "D045",
+      "text": "A jagged quartz crystal, glowing softly under a grey sky",
+      "subject": "a jagged quartz crystal",
+      "tag": "crystal"
+    },
+    {
+      "id": "D046",
+      "text": "A sphere of clouded glass, twisting under a grey sky",
+      "subject": "a sphere of clouded glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D047",
+      "text": "A slender pillar of ice, breaking apart over still water",
+      "subject": "a slender pillar of ice",
+      "tag": "ice"
+    },
+    {
+      "id": "D048",
+      "text": "A carved wooden mask, hovering in thick fog",
+      "subject": "a carved wooden mask",
+      "tag": "mask"
+    },
+    {
+      "id": "D049",
+      "text": "A wisp of drifting smoke, drifting in a quiet field",
+      "subject": "a wisp of drifting smoke",
+      "tag": "smoke"
+    },
+    {
+      "id": "D050",
+      "text": "A ribbon of water, dissolving in an empty room",
+      "subject": "a ribbon of water",
+      "tag": "water"
+    },
+    {
+      "id": "D051",
+      "text": "A shard of broken glass, stretching upward on a frozen lake",
+      "subject": "a shard of broken glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D052",
+      "text": "A soap bubble, rising on a frozen lake",
+      "subject": "a soap bubble",
+      "tag": "bubble"
+    },
+    {
+      "id": "D053",
+      "text": "A shard of broken glass, floating on dark sand",
+      "subject": "a shard of broken glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D054",
+      "text": "A tall spiral of light, stretching upward in an empty room",
+      "subject": "a tall spiral of light",
+      "tag": "light"
+    },
+    {
+      "id": "D055",
+      "text": "Terraced hillsides, drifting at the edge of a cliff",
+      "subject": "terraced hillsides",
+      "tag": "hillsides"
+    },
+    {
+      "id": "D056",
+      "text": "A five-pointed star, resting in a wide desert",
+      "subject": "a five-pointed star",
+      "tag": "star"
+    },
+    {
+      "id": "D057",
+      "text": "A jagged quartz crystal, dissolving in a quiet field",
+      "subject": "a jagged quartz crystal",
+      "tag": "crystal"
+    },
+    {
+      "id": "D058",
+      "text": "A soap bubble, rising in a quiet field",
+      "subject": "a soap bubble",
+      "tag": "bubble"
+    },
+    {
+      "id": "D059",
+      "text": "A nest of branches, glowing softly in thick fog",
+      "subject": "a nest of branches",
+      "tag": "branches"
+    },
+    {
+      "id": "D060",
+      "text": "A smooth round boulder, twisting among tall grass",
+      "subject": "a smooth round boulder",
+      "tag": "boulder"
+    },
+    {
+      "id": "D061",
+      "text": "A hovering dragonfly, rising on dark sand",
+      "subject": "a hovering dragonfly",
+      "tag": "dragonfly"
+    },
+    {
+      "id": "D062",
+      "text": "A wide flat leaf, hovering in a quiet field",
+      "subject": "a wide flat leaf",
+      "tag": "leaf"
+    },
+    {
+      "id": "D063",
+      "text": "A five-pointed star, floating under a grey sky",
+      "subject": "a five-pointed star",
+      "tag": "star"
+    },
+    {
+      "id": "D064",
+      "text": "A bird with open wings, breaking apart under a grey sky",
+      "subject": "a bird with open wings",
+      "tag": "wings"
+    },
+    {
+      "id": "D065",
+      "text": "A tall spiral of light, held still among tall grass",
+      "subject": "a tall spiral of light",
+      "tag": "light"
+    },
+    {
+      "id": "D066",
+      "text": "A cracked open geode, breaking apart in a wide desert",
+      "subject": "a cracked open geode",
+      "tag": "geode"
+    },
+    {
+      "id": "D067",
+      "text": "A curled fish, held still at dusk",
+      "subject": "a curled fish",
+      "tag": "fish"
+    },
+    {
+      "id": "D068",
+      "text": "A shallow stone bowl, stretching upward in a pool of light",
+      "subject": "a shallow stone bowl",
+      "tag": "bowl"
+    },
+    {
+      "id": "D069",
+      "text": "A curled fish, tumbling in a forest clearing",
+      "subject": "a curled fish",
+      "tag": "fish"
+    },
+    {
+      "id": "D070",
+      "text": "A shard of broken glass, unfolding in an empty room",
+      "subject": "a shard of broken glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D071",
+      "text": "A shard of broken glass, slowly turning on a frozen lake",
+      "subject": "a shard of broken glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D072",
+      "text": "A coiled snake, unfolding at dusk",
+      "subject": "a coiled snake",
+      "tag": "snake"
+    },
+    {
+      "id": "D073",
+      "text": "A bare winter tree, slowly turning in thick fog",
+      "subject": "a bare winter tree",
+      "tag": "tree"
+    },
+    {
+      "id": "D074",
+      "text": "An empty seashell, rising over still water",
+      "subject": "an empty seashell",
+      "tag": "seashell"
+    },
+    {
+      "id": "D075",
+      "text": "A folded cloth, breaking apart at dusk",
+      "subject": "a folded cloth",
+      "tag": "cloth"
+    },
+    {
+      "id": "D076",
+      "text": "A tall stone spire, hovering against the night sky",
+      "subject": "a tall stone spire",
+      "tag": "spire"
+    },
+    {
+      "id": "D077",
+      "text": "A sharp mountain peak, breaking apart at dusk",
+      "subject": "a sharp mountain peak",
+      "tag": "peak"
+    },
+    {
+      "id": "D078",
+      "text": "A single pearl, stretching upward in thick fog",
+      "subject": "a single pearl",
+      "tag": "pearl"
+    },
+    {
+      "id": "D079",
+      "text": "A bird with open wings, unfolding in a quiet field",
+      "subject": "a bird with open wings",
+      "tag": "wings"
+    },
+    {
+      "id": "D080",
+      "text": "A coiled snake, drifting under a grey sky",
+      "subject": "a coiled snake",
+      "tag": "snake"
+    },
+    {
+      "id": "D081",
+      "text": "A resting turtle, resting on a frozen lake",
+      "subject": "a resting turtle",
+      "tag": "turtle"
+    },
+    {
+      "id": "D082",
+      "text": "A thin column of smoke, slowly turning among tall grass",
+      "subject": "a thin column of smoke",
+      "tag": "smoke"
+    },
+    {
+      "id": "D083",
+      "text": "A carved wooden mask, twisting on a frozen lake",
+      "subject": "a carved wooden mask",
+      "tag": "mask"
+    },
+    {
+      "id": "D084",
+      "text": "A hollow log, drifting over still water",
+      "subject": "a hollow log",
+      "tag": "log"
+    },
+    {
+      "id": "D085",
+      "text": "A standing stone, slowly turning at the edge of a cliff",
+      "subject": "a standing stone",
+      "tag": "stone"
+    },
+    {
+      "id": "D086",
+      "text": "A folded cloth, held still on dark sand",
+      "subject": "a folded cloth",
+      "tag": "cloth"
+    },
+    {
+      "id": "D087",
+      "text": "A hollow log, stretching upward at the edge of a cliff",
+      "subject": "a hollow log",
+      "tag": "log"
+    },
+    {
+      "id": "D088",
+      "text": "A slender pillar of ice, floating at dusk",
+      "subject": "a slender pillar of ice",
+      "tag": "ice"
+    },
+    {
+      "id": "D089",
+      "text": "A tangle of roots, floating under a grey sky",
+      "subject": "a tangle of roots",
+      "tag": "roots"
+    },
+    {
+      "id": "D090",
+      "text": "A standing stone, held still in a forest clearing",
+      "subject": "a standing stone",
+      "tag": "stone"
+    },
+    {
+      "id": "D091",
+      "text": "A sphere of clouded glass, tumbling in a forest clearing",
+      "subject": "a sphere of clouded glass",
+      "tag": "glass"
+    },
+    {
+      "id": "D092",
+      "text": "A slab of grey stone, glowing softly among tall grass",
+      "subject": "a slab of grey stone",
+      "tag": "stone"
+    },
+    {
+      "id": "D093",
+      "text": "A soap bubble, held still among tall grass",
+      "subject": "a soap bubble",
+      "tag": "bubble"
+    },
+    {
+      "id": "D094",
+      "text": "A pair of antlers, floating under a grey sky",
+      "subject": "a pair of antlers",
+      "tag": "antlers"
+    },
+    {
+      "id": "D095",
+      "text": "A slender pillar of ice, resting in a pool of light",
+      "subject": "a slender pillar of ice",
+      "tag": "ice"
+    },
+    {
+      "id": "D096",
+      "text": "A nest of branches, floating in a forest clearing",
+      "subject": "a nest of branches",
+      "tag": "branches"
+    },
+    {
+      "id": "D097",
+      "text": "A wisp of drifting smoke, floating under a grey sky",
+      "subject": "a wisp of drifting smoke",
+      "tag": "smoke"
+    },
+    {
+      "id": "D098",
+      "text": "A coiled snake, dissolving against the night sky",
+      "subject": "a coiled snake",
+      "tag": "snake"
+    },
+    {
+      "id": "D099",
+      "text": "A billowing sail, tumbling among tall grass",
+      "subject": "a billowing sail",
+      "tag": "sail"
+    }
+  ]
+}

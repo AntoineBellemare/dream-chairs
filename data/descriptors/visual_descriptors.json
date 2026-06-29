@@ -1,0 +1,20 @@
+{
+  "_note": "Large, culturally-neutral dictionary of purely formal/visual descriptors. Used for the data-driven 'emergent visual qualities' analysis (Approach 1: OpenShape/ULIP-style cosine matching of generated point clouds against a descriptor dictionary). These are generic geometry/surface terms with no cultural content and are safe to author here. They are NOT Lakota symbols.",
+  "descriptors": [
+    "spherical", "cubic", "cylindrical", "conical", "pyramidal", "flat and planar",
+    "tall and vertical", "long and horizontal", "elongated", "compact", "blocky",
+    "tapering", "bulbous", "tubular", "ring-shaped", "dome-shaped", "spiral",
+    "helical", "branching", "radial", "star-shaped", "lattice-like", "shell-like",
+    "slab-like", "smooth", "rough", "bumpy", "ridged", "grooved", "porous",
+    "perforated", "faceted", "crystalline", "granular", "fibrous", "woven", "scaly",
+    "wrinkled", "cracked", "polished", "matte", "sharp-edged", "rounded edges",
+    "jagged", "serrated", "beveled", "soft contours", "angular", "curvy", "wavy",
+    "undulating", "bilaterally symmetrical", "radially symmetrical", "asymmetrical",
+    "irregular", "repeating modular units", "fractal", "layered", "segmented",
+    "nested", "interlocking", "hollow", "solid", "dense", "sparse", "open framework",
+    "enclosed", "organic", "geometric", "mechanical", "architectural", "skeletal",
+    "fluid", "rigid", "delicate", "massive", "heavy", "lightweight", "airy",
+    "twisted", "coiled", "knotted", "flowing", "static", "dynamic", "balanced",
+    "top-heavy", "grounded", "floating"
+  ]
+}

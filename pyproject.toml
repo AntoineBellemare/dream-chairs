@@ -1,0 +1,15 @@
+[project]
+name = "dream-chairs"
+version = "0.1.0"
+description = "Dream text -> 3D shape (Point-E / Shap-E) -> classify against symbol descriptors"
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["dream_chairs*"]
+
+[project.scripts]
+dream-chairs = "dream_chairs.cli:main"

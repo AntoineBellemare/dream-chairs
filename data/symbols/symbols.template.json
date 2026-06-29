@@ -1,0 +1,61 @@
+{
+  "_note": "PLACEHOLDER ONLY — NOT an authoritative symbol set. The real Lakota symbol inventory, their meanings, and any spatial/architectural qualities MUST be defined and reviewed by a Lakota Knowledge Holder (see project emails re: cultural permissions). The entries below are common, non-sacred natural/everyday forms used purely to demonstrate multi-class classification and symbol-guided generation. 'descriptors' and 'spatial_qualities' here are strictly FORMAL/visual (no cultural meaning is claimed). Replace this file with vetted content and set each 'source' to 'knowledge_holder'.",
+  "schema": {
+    "id": "stable identifier",
+    "label": "display name",
+    "descriptors": "formal/visual phrases embedded and matched against generated shapes (classification)",
+    "spatial_qualities": "formal spatial phrases used to guide the 3D generation prompt (Approach 2)",
+    "base_shape": "coarse base-shape hint (Approach 2 / Mark's option)",
+    "source": "must become 'knowledge_holder' for real entries"
+  },
+  "symbols": [
+    {
+      "id": "dragonfly", "label": "Dragonfly",
+      "descriptors": ["thin elongated body", "delicate translucent wings", "bilaterally symmetrical", "slender and lightweight", "open lattice structure"],
+      "spatial_qualities": ["elongated", "lightweight", "symmetrical", "open frame"],
+      "base_shape": "elongated_lattice", "source": "placeholder"
+    },
+    {
+      "id": "house", "label": "House",
+      "descriptors": ["enclosed volume", "pitched roof", "rectangular walls", "sheltering and grounded", "solid and stable"],
+      "spatial_qualities": ["enclosed", "sheltering", "grounded", "nested volumes"],
+      "base_shape": "gabled_box", "source": "placeholder"
+    },
+    {
+      "id": "turtle", "label": "Turtle",
+      "descriptors": ["domed shell", "low rounded profile", "segmented surface", "compact", "grounded mass"],
+      "spatial_qualities": ["domed", "low", "rounded", "compact"],
+      "base_shape": "dome", "source": "placeholder"
+    },
+    {
+      "id": "star", "label": "Star",
+      "descriptors": ["radial points", "sharp spikes", "radially symmetrical", "pointed", "outward radiating"],
+      "spatial_qualities": ["radial", "pointed", "symmetrical", "outward-reaching"],
+      "base_shape": "radial_spikes", "source": "placeholder"
+    },
+    {
+      "id": "tree", "label": "Tree",
+      "descriptors": ["vertical trunk", "branching limbs", "spreading canopy", "rooted", "organic"],
+      "spatial_qualities": ["vertical", "branching", "spreading", "rooted"],
+      "base_shape": "branching", "source": "placeholder"
+    },
+    {
+      "id": "bird", "label": "Bird",
+      "descriptors": ["streamlined body", "outstretched wings", "tapered form", "lightweight", "aerodynamic"],
+      "spatial_qualities": ["streamlined", "winged", "light", "tapering"],
+      "base_shape": "winged", "source": "placeholder"
+    },
+    {
+      "id": "mountain", "label": "Mountain",
+      "descriptors": ["tall peak", "broad base", "angular slopes", "massive", "rising"],
+      "spatial_qualities": ["tall", "broad-based", "angular", "massive"],
+      "base_shape": "cone", "source": "placeholder"
+    },
+    {
+      "id": "river", "label": "River",
+      "descriptors": ["winding channel", "smooth flowing curve", "horizontal", "continuous", "sinuous"],
+      "spatial_qualities": ["winding", "flowing", "horizontal", "continuous"],
+      "base_shape": "sinuous_band", "source": "placeholder"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_note": "Phenomenological posture rubric: the bridge between dream phenomenology and chair phenomenology. Each axis is bipolar (low<->high). 'low'/'high' are GEOMETRIC pole phrases used to project a shape (OpenShape) or a text (CLIP) onto the axis. 'phenomenology' names the dream/body reading. 'chair' maps the axis position to chair parameters as [value_at_low, value_at_high], linearly interpolated. Edit freely; this is a design instrument, not fixed truth. Phenomenology grounding: Windt (dream body / spatial immersion), Hobson (bizarreness/AIM dimensions), chair-as-postural-proposition.",
+  "axes": [
+    {
+      "name": "recumbent_upright",
+      "phenomenology": "orientation of the dream body: lying / falling / reclined vs standing / rising / upright",
+      "low": ["a long horizontal form lying low", "reclined and spread out flat", "low and recumbent"],
+      "high": ["a tall upright vertical form", "rising and standing tall", "an erect vertical column"],
+      "chair": { "recline_angle_deg": [125, 90], "seat_height": [0.35, 0.5] }
+    },
+    {
+      "name": "exposed_cocooned",
+      "phenomenology": "enclosure of the dream body: open / exposed / unprotected vs sheltered / wrapped / cocooned",
+      "low": ["an open exposed flat shape", "outward and unsheltered", "a thin open plane"],
+      "high": ["an enclosed hollow shell", "a wrapping cocoon around a void", "surrounded and sheltered volume"],
+      "chair": { "back_wrap": [0.1, 0.95], "armrest_enclosure": [0.0, 1.0], "canopy": [0.0, 0.7] }
+    },
+    {
+      "name": "floating_grounded",
+      "phenomenology": "weight & support: weightless / floating / flying vs heavy / planted / grounded",
+      "low": ["a light delicate airy form", "thin and weightless", "elevated and floating"],
+      "high": ["a heavy solid grounded mass", "a broad dense base", "planted and weighty"],
+      "chair": { "base_mass": [0.15, 1.0], "leg_splay": [0.2, 0.9], "ground_contact": [0.2, 1.0] }
+    },
+    {
+      "name": "collapsed_taut",
+      "phenomenology": "muscular tone: limp / collapsed / dissolving / paralyzed vs rigid / braced / tense",
+      "low": ["a soft sagging drooping form", "slumped and melting", "limp and collapsed"],
+      "high": ["a rigid taut braced form", "sharp and rigid", "tense and angular"],
+      "chair": { "structural_rigidity": [0.15, 1.0], "surface_give": [1.0, 0.1], "edge_sharpness": [0.1, 0.9] }
+    },
+    {
+      "name": "contracted_dilated",
+      "phenomenology": "bodily/spatial extent: contracted / compressed / small vs dilated / expansive / open",
+      "low": ["a small compact contracted form", "tight and compressed", "closed in on itself"],
+      "high": ["a large expansive open form", "spread wide and dilated", "billowing and expanded"],
+      "chair": { "volume_openness": [0.1, 1.0], "seat_depth": [0.4, 0.65], "spread": [0.2, 1.0] }
+    },
+    {
+      "name": "stable_unstable",
+      "phenomenology": "equilibrium: balanced / steady / poised vs tilting / precarious / vertiginous",
+      "low": ["a balanced stable symmetric form", "steady and level", "firmly poised"],
+      "high": ["a tilting unstable leaning form", "off balance and precarious", "toppling and asymmetric"],
+      "chair": { "tilt_deg": [0, 14], "asymmetry": [0.0, 0.8], "base_balance": [1.0, 0.3] }
+    }
+  ]
+}

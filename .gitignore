@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.DS_Store
+
+# pipeline artifacts
+outputs/*
+!outputs/.gitkeep
+
+# model caches
+models_cache/
+*.npz
+*.npy
+
+# model weight caches (downloaded at runtime)
+shap_e_model_cache/
+point_e_model_cache/
+*.pt
+
+# large 3D artifacts (regenerated)
+*.ply
+*.glb
+*.obj

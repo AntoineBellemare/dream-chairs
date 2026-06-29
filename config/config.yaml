@@ -1,0 +1,53 @@
+# dream-chairs pipeline configuration
+# Edit values here; everything is read by dream_chairs/config.py
+
+device: cuda            # cuda | cpu  (falls back to cpu automatically if cuda unavailable)
+
+paths:
+  dreams: data/dreams/example_dreams.json
+  symbols: data/symbols/symbols.template.json
+  output_dir: outputs
+
+generation:
+  backend: point_e       # point_e | shap_e
+  num_points: 4096
+  point_e:
+    base_model: base40M-textvec
+    upsample: true
+    guidance_scale: 3.0
+  shap_e:
+    guidance_scale: 15.0
+    karras_steps: 64
+    use_fp16: true
+
+embedding:
+  backend: clip_multiview     # clip_multiview (working) | openshape (scaffold, see README)
+  clip:
+    model_name: ViT-B-32
+    pretrained: laion2b_s34b_b79k
+  multiview:
+    num_views: 8
+    image_size: 224
+    point_size: 2
+  openshape:
+    # Native point-cloud<->text matching in a shared CLIP space (no rendering).
+    # l14 reuses the cached OpenAI CLIP ViT-L/14 text encoder (no big download).
+    # For the paper's best model use:
+    #   checkpoint: openshape-pointbert-vitg14-rgb
+    #   clip_backend: openclip   clip_model_name: ViT-bigG-14   (~10GB download)
+    checkpoint: openshape-pointbert-vitl14-rgb
+    clip_backend: openai            # openai | openclip
+    clip_model_name: "ViT-L/14"
+    clip_pretrained: laion2b_s39b_b160k
+    num_points: 10000
+    swap_yz: null                   # null = auto (z-up for g14, y-up otherwise)
+
+classification:
+  top_k: 5
+  descriptor_aggregation: mean   # mean | max
+
+clustering:
+  enabled: true
+  algorithm: kmeans       # kmeans | agglomerative
+  num_clusters: 3
+  top_terms: 8
