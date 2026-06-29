@@ -58,6 +58,8 @@ def main(argv=None) -> int:
     ap.add_argument("--sample", type=int, default=None)
     ap.add_argument("--views", type=int, default=4)
     ap.add_argument("--size", type=int, default=170)
+    ap.add_argument("--matplotlib", action="store_true",
+                    help="render in the 3D matplotlib style (coolwarm cube) instead of the fast splat view")
     ap.add_argument("--out", default=None)
     args = ap.parse_args(argv)
 
@@ -91,7 +93,13 @@ def main(argv=None) -> int:
         z = np.load(os.path.join(pc_dir, f"{did}.npz"))
         pts = z["points"]
         cols = z["colors"] if "colors" in z.files else None
-        views = render_point_views(pts, cols, V, cell, 2)
+        if args.matplotlib:
+            from dream_chairs.render3d import render_points_3d
+            azims = np.linspace(-62, -62 + 300, V)
+            views = [render_points_3d(pts, px=cell, point_size=6, azim=a).resize((cell, cell))
+                     for a in azims]
+        else:
+            views = render_point_views(pts, cols, V, cell, 2)
         y = pad + r * (rowh + pad)
         draw.text((pad, y + 4), did, fill=(20, 20, 20), font=font_id)
         for li, line in enumerate(_wrap(draw, texts.get(did, ""), font_tx, labw - 16)):

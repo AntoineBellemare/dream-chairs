@@ -73,7 +73,10 @@ def main(argv=None) -> int:
     ap.add_argument("--kmax", type=int, default=12)
     ap.add_argument("--sharpness", type=float, default=2.0)
     ap.add_argument("--no-cache", action="store_true")
+    ap.add_argument("--clean", action="store_true",
+                    help="restrict to clean_ids.json (drop flagged blobs); writes *_clean outputs")
     args = ap.parse_args(argv)
+    suffix = "_clean" if args.clean else ""
 
     os.environ.setdefault("LOKY_MAX_CPU_COUNT", str(os.cpu_count() or 4))
     cfg = load_config(args.config)
@@ -113,6 +116,12 @@ def main(argv=None) -> int:
         np.savez_compressed(cache, ids=np.array(ids), embs=E)
         print(f"[cluster] cached embeddings -> {cache}")
     E = l2_normalize(E, axis=1)
+
+    if args.clean:
+        cids = set(json.load(open(os.path.join(out, "clean_ids.json"), encoding="utf-8"))["ids"])
+        keep = [i for i, d in enumerate(ids) if d in cids]
+        ids = [ids[i] for i in keep]; shapes = [shapes[i] for i in keep]; E = E[keep]
+        print(f"[cluster] clean mode: {len(ids)} forms (flagged blobs removed)")
 
     fam_embs = FAM.embed_families(families, embedder)
     desc_embs = l2_normalize(embedder.embed_texts(descriptors), axis=1)
@@ -194,13 +203,13 @@ def main(argv=None) -> int:
 
     report = {"tag": args.tag, "k": k, "n": len(shapes), "silhouette": scores,
               "clusters": clusters}
-    io_utils.save_json(os.path.join(out, "cluster_report.json"), report)
+    io_utils.save_json(os.path.join(out, f"cluster_report{suffix}.json"), report)
     scatter = {"points": [{"id": ids[i], "x": float(xy[i, 0]), "y": float(xy[i, 1]),
                            "cluster": int(labels[i]),
                            "tag": meta.get(ids[i], {}).get("tag", ""),
                            "text": meta.get(ids[i], {}).get("text", "")} for i in range(len(shapes))]}
-    io_utils.save_json(os.path.join(out, "cluster_scatter.json"), scatter)
-    _write_md(os.path.join(out, "cluster_report.md"), report, fam_names)
+    io_utils.save_json(os.path.join(out, f"cluster_scatter{suffix}.json"), scatter)
+    _write_md(os.path.join(out, f"cluster_report{suffix}.md"), report, fam_names)
 
     print(f"\n=== {k} clusters ({args.tag}) ===")
     for cl in clusters:

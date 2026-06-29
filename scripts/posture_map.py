@@ -34,7 +34,9 @@ def main(argv=None) -> int:
     ap.add_argument("--axes", default=str(ROOT / "data" / "descriptors" / "body_posture_axes.json"))
     ap.add_argument("--dreams", default=str(ROOT / "data" / "dreams" / "dream_dataset.json"))
     ap.add_argument("--out-root", default=str(ROOT / "outputs"))
+    ap.add_argument("--clean", action="store_true", help="restrict to clean_ids.json; writes *_clean")
     args = ap.parse_args(argv)
+    suffix = "_clean" if args.clean else ""
 
     cfg = load_config(args.config)
     cfg.embedding["backend"] = "openshape"
@@ -48,11 +50,15 @@ def main(argv=None) -> int:
     c = np.load(cache, allow_pickle=True)
     ids = list(c["ids"])
     E = c["embs"]
+    if args.clean:
+        cids = set(json.load(open(os.path.join(base, "clean_ids.json"), encoding="utf-8"))["ids"])
+        keep = [i for i, d in enumerate(ids) if d in cids]
+        ids = [ids[i] for i in keep]; E = E[keep]
     print(f"[posture] {len(ids)} forms, embeddings {E.shape}")
 
     meta = {d["id"]: d for d in json.load(open(args.dreams, encoding="utf-8"))["dreams"]}
     clusters = {}
-    rep_path = os.path.join(base, "cluster_report.json")
+    rep_path = os.path.join(base, f"cluster_report{suffix}.json")
     if os.path.exists(rep_path):
         rep = json.load(open(rep_path, encoding="utf-8"))
         for cl in rep["clusters"]:
@@ -78,9 +84,9 @@ def main(argv=None) -> int:
             "chair": AX.posture_to_chair(axis_names, zrow, axes),
         })
 
-    io_utils.save_json(os.path.join(base, "posture_profiles.json"),
+    io_utils.save_json(os.path.join(base, f"posture_profiles{suffix}.json"),
                        {"tag": args.tag, "axes": axis_names, "profiles": profiles})
-    io_utils.save_json(os.path.join(base, "posture_matrix.json"), {
+    io_utils.save_json(os.path.join(base, f"posture_matrix{suffix}.json"), {
         "axes": [{"name": a["name"], "low": a["low"][0], "high": a["high"][0],
                   "phenomenology": a["phenomenology"]} for a in axes],
         "dreams": [{"id": p["id"], "text": p["text"], "tag": p["tag"], "cluster": p["cluster"],
@@ -105,7 +111,7 @@ def main(argv=None) -> int:
         did = ids[did_i]
         print(f"\n{did}: {meta.get(did, {}).get('text', '')}")
         print("  ", AX.posture_to_chair(axis_names, Z[did_i], axes))
-    print(f"\n[posture] wrote posture_profiles.json + posture_matrix.json -> {base}")
+    print(f"\n[posture] wrote posture_profiles{suffix}.json + posture_matrix{suffix}.json -> {base}")
     return 0
 
 
