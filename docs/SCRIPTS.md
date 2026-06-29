@@ -51,6 +51,15 @@ Cosine-matches saved forms to the symbol set (and descriptor dictionary) in Open
 
 ---
 
+### `alignment.py` — dream ↔ form faithfulness
+Embeds each dream's text and its generated form in the same space, projects **both** onto
+posture axes / design families / symbols, and measures how well the form preserves the
+dream's profile — *per-dimension* (which properties survive translation) and *per-dream*
+(best-preserved dreams, for the one-dream → one-chair route). Standardizes within modality
+and compares to a shuffled baseline.
+- **Out:** `outputs/dataset_<tag>/alignment_report.json`, `docs/figures/fig9_alignment.*`
+- **Example:** `python scripts/alignment.py --tag pointe`
+
 ## The dream → chair bridge
 
 ### `posture_map.py` — place forms on the body axes

@@ -40,6 +40,11 @@ Suggested captions:
 - **fig8_mesh_gallery** — *Shap-E mesh corpus.* 24 Shap-E meshes rendered by dense surface
   sampling.
 
+- **fig9_alignment** — *Dream ↔ form faithfulness.* Left: mean text→form alignment per axis
+  set (symbols > design families > posture), each well above its shuffled baseline. Right:
+  which posture axes survive translation (orientation/tone/weight/enclosure preserved;
+  spatial extent and stability largely lost).
+
 - **fig3/4/5_*_clean** — the same cluster map, design-family signatures, and posture map
   recomputed on the 78 forms left after removing the flagged degenerate blobs
   (`scripts/flag_blobs.py` → `clean_ids.json`). Families separate more and their signatures

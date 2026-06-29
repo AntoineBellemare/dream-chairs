@@ -28,7 +28,7 @@ FONT_SETS = [
 
 
 # glyphs the base UI font may lack — routed through a symbol font so they don't box.
-SYM_CHARS = "✓✗◦↔"
+SYM_CHARS = "✓✗◦↔≈"
 SYM_FONTS = ["C:/Windows/Fonts/seguisym.ttf", "C:/Windows/Fonts/arial.ttf"]
 
 
